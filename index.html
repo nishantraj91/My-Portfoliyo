@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio HTML CSS Javascript | Nishant Raj</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!--box icons-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--header design-->
+    <header class="header">
+      <a href="#contact" class="logo"
+        >Portfolio.<span class="animate" style="--i: 1"></span
+      ></a>
+
+      <div class="bx bx-menu" id="menu-icon">
+        <span class="animate" style="--i: 2"></span>
+      </div>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+
+        <span class="active-nav"></span>
+        <span class="animate" style="--i: 2"></span>
+      </nav>
+    </header>
+
+    <!--home section design-->
+    <section class="home show-animate js-container" id="home">
+      <div class="congrats">
+        <div class="checkmark-circle">
+          <div class="background"></div>
+          <div class="checkmark draw"></div>
+        </div>
+        
+
+        <button
+          class="submit-btn" id="endanim" type="submit"
+          onclick="alert('You have found the ideal candidate for your company!!! 😜😜😜');">Continue</button>
+      </div>
+      <div class="home-content">
+        <h1>
+          Hi, I'm <span>Nishant Raj</span
+          ><span class="animate" style="--i: 2"></span>
+        </h1>
+        <div class="text-animate">
+          <h3>Web Developer</h3>
+          <span class="animate" style="--i: 3"></span>
+        </div>
+        <p>
+          Skilled Web Developer with expertise in HTML, CSS, JavaScript, and
+          React.js. Proficient in building responsive, user-friendly websites
+          and optimizing performance. Strong problem-solving abilities with a
+          commitment to teamwork and delivering high-quality projects on time.
+          <span class="animate" style="--i: 3"></span>
+        </p>
+
+        <div class="btn-box">
+          <a href="NishantResume.pdf" target="_blank" class="btn">View My CV</a>
+
+          <span class="animate" style="--i: 5"></span>
+        </div>
+      </div>
+
+      <div class="home-sci">
+        <a href="https://github.com/nishantraj91" target="_blank"
+          ><i class="bx bxl-github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/nishantraj91/" target="_blank"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+
+        <span class="animate" style="--i: 5"></span>
+      </div>
+
+      <div class="home-imgHover"></div>
+      <span class="animate home-img" style="--i: 5"></span>
+    </section>
+
+    <!--section About-->
+    <section class="about" id="about">
+      <h2 class="heading">
+        About <span>Me</span><span class="animate scroll" style="--i: 1"></span>
+      </h2>
+
+      <div class="about-img">
+        <img src="image.jpg" alt="images Nishant Web Developer" />
+        <span class="circle-spin"></span>
+        <span class="animate scroll" style="--i: 1"></span>
+      </div>
+
+      <div class="about-content">
+        <h3>
+          Web Developer <span class="animate scroll" style="--i: 2"></span>
+        </h3>
+        <p>
+          I am currently pursuing a B.Tech in Computer Science Engineering, and
+          I am passionate about programming and web development. Beyond coding,
+          I enjoy adventurous activities like skydiving and running. I also love
+          capturing the beauty of nature with my drone and bringing it to life
+          through creative video editing. I aim to combine technical skills with
+          creativity in all my projects.
+          <span class="animate scroll" style="--i: 2"></span>
+        </p>
+      </div>
+    </section>
+
+    <!--section education -->
+    <section class="education" id="education">
+      <h4 class="heading">
+        Qualifications<span>
+        <span class="animate scroll" style="--i: 1"></span>
+      </h4>
+
+      <div class="education-row">
+        <div class="education-column">
+         
+
+          <div class="education-box">
+            <div class="education-content">
+              <div class="content">
+                <div class="year">
+                  <i class="bx bxs-calendar"></i> 2015 - 2016
+                </div>
+                <h3>Buddha Mission School, Sasaram Rohtas</h3>
+                <p>
+                  Matriculation(CBSE)
+                </p>
+                <p>
+                  Subject Studied : Science, Maths, English, Social Science, Sanskrit.
+                </p>
+                <p>
+                  Scored : 8.8 CGPA
+                </p>
+                <p>
+                  Extra Activities : 🏆 Won the Final Match of Inter-School Cricket Tournament while studying in Class 10.
+                </p>
+               
+              </div>
+            </div>
+
+            <div class="education-content">
+              <div class="content">
+                <div class="year">
+                  <i class="bx bxs-calendar"></i> 2016- 2018
+                </div>
+                <h3>
+                  Sri Shankar College, Sasaram Rohtas
+                </h3>
+                <p>
+                 Higher Secondary College(BSEB)
+                </p>
+                <p>
+                 Subject Studied : Physics, Chemestry, Maths, English, Hindi.
+                </p>
+                <p>
+                 Scored : 58.6%
+                </p>
+              </div>
+            </div>
+
+            <span class="animate scroll" style="--i: 3"></span>
+
+            <div class="education-content">
+              <div class="content">
+                <div class="year">
+                  <i class="bx bxs-calendar"></i> 2019 - 2022
+                </div>
+                <h3>Peoples University, Bhopal MP</h3>
+                <p>
+                 Diploma in Electrical Engineer
+                </p>
+                <p>
+                 Scored : 7.63 CGPA
+                </p>
+                <p>
+                 Diploma Electrical Engineer with 1 year of experience as a QA Engineer (2022-2023). Skill in testing, Quality cheaks, and process improvements with strong problem solving and teamwork abilities.
+                </p>
+                <p>
+                  Extra Activities : Captain of College cricket team, led the team to victory in the University level final match.
+                </p>
+                
+              </div>
+            </div>
+             <div class="education-box">
+            <div class="education-content">
+              <div class="content">
+                <div class="year">
+                  <i class="bx bxs-calendar"></i> 2023 - 2026
+                </div>
+                <h3>
+                  IES University, Bhopal MP
+                </h3>
+                <p>
+                  Bachelor of Technology (B.Tech) in Computer Science and Engineering(Ongoing)
+                </p>
+                <p>
+                  Scored : 7.17 CGPA
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      
+
+         
+         </section>
+
+    <!--section slills-->
+    <section class="skills" id="skills">
+      <h2 class="heading">
+        My <span>Skills</span
+        ><span class="animate scroll" style="--i: 1"></span>
+      </h2>
+
+      <div class="skills-row">
+        <div class="skills-column">
+          <h3 class="title">
+            Coding Skills<span class="animate scroll" style="--i: 2"></span>
+          </h3>
+
+          <div class="skills-box">
+            <div class="skills-content">
+              <div class="progress">
+                <h3>HTML + CSS <span>90%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>JavaScript <span>80%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>Python <span>60%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+            <span class="animate scroll" style="--i: 3"></span>
+          </div>
+        </div>
+
+        <div class="skills-column">
+          <h3 class="title">
+            Professional Skills:<span
+              class="animate scroll"
+              style="--i: 5"
+            ></span>
+          </h3>
+
+          <div class="skills-box">
+            <div class="skills-content">
+              <div class="progress">
+                <h3>Web Development <span>80%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>Frontend Development <span>80%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>Backend Development <span>70%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>Project Management & Team Collaboration <span>90%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+            </div>
+
+            <span class="animate scroll" style="--i: 6"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--contact section -- mes projets section-->
+    <section class="contact" id="contact">
+      <h2 class="heading">
+        My<span>Projects</span
+        ><span class="animate scroll" style="--i: 1"></span>
+      </h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="Images/portfolio1.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Weather Explorer</h4>
+            <p>
+              Developed with HTML, CSS, and JavaScript, the site integrates an API and is fully responsive.
+            </p>
+            <a
+              href=" https://nishantraj91.github.io/Weather-Explorer/"
+              target="_blank"
+              ><i class="bx bx-link-external"></i
+            ></a>
+            <span class="focus"></span>
+          </div>
+          <span class="animate scroll" style="--i: 3"></span>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/portfolio2.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>LAMBORGHINI</h4>
+            <p>
+              HTML, CSS, JS + Framework Swiper. Figma-pour la conception du
+              site. Ce site s'adapter à différents écrans.
+            </p>
+            <a
+              href="https://alexnesvit.github.io/Monprojet-Lambo-html-css-javascript/"
+              target="_blank"
+              ><i class="bx bx-link-external"></i
+            ></a>
+            <span class="focus"></span>
+          </div>
+          <span class="animate scroll" style="--i: 5"></span>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/portfolio3.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>SOLAR SYSTEM</h4>
+            <p>HTML + CSS. Solar System animation.</p>
+            <a href="https://nishantraj91.github.io/Soler-system/" target="_blank"
+              ><i class="bx bx-link-external"></i
+            ></a>
+            <span class="focus"></span>
+          </div>
+          <span class="animate scroll" style="--i: 7"></span>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/portfolio4.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>TELEGRAM-BOT</h4>
+            <p>
+              PYTHON + AIOGRAM. Telegramm Bot pour l'inscription sur le site.
+              Contactez-moi: 07.68.26.18.77
+            </p>
+            <a href="https://github.com/nishantraj91" target="_blank"
+              ><i class="bx bx-link-external"></i
+            ></a>
+            <span class="focus"></span>
+          </div>
+          <span class="animate scroll" style="--i: 3"></span>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/portfolio5.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>GITHUB BOT</h4>
+            <p>
+              PYTHON. Bot GitHub pour automatiser les activités sur GitHub.
+              Contactez-moi: 07.68.26.18.77
+            </p>
+            <a href="" target="_blank"
+              ><i class="bx bx-link-external"></i
+            ></a>
+            <span class="focus"></span>
+          </div>
+          <span class="animate scroll" style="--i: 5"></span>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="Images/portfolio6.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Projet Personal-Card</h4>
+            <p>
+             A modern and responsive personal card website designed with HTML, CSS, and JavaScript.
+            </p>
+            <a href="https://nishantraj91.github.io/Persional-Card/" target="_blank"
+              ><i class="bx bx-link-external"></i
+            ></a>
+            <span class="focus"></span>
+          </div>
+          <span class="animate scroll" style="--i: 7"></span>
+        </div>
+        <!-- 
+            <div class="btn-box btns">
+                <button type="submit" class="btn">Envoyer</button>
+
+                <span class="animate scroll" style="--i:9;"></span>
+            </div> -->
+      </div>
+    </section>
+
+    <!--Copyright footer design-->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2025 by Nishant Raj | All Rights Reserved.</p>
+
+        <span class="animate scroll" style="--i: 1"></span>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#"><i class="bx bx-up-arrow-alt"></i></a>
+
+        <span class="animate scroll" style="--i: 3"></span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
